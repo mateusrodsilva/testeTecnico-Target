@@ -1,9 +1,9 @@
 ﻿using System.Text.Json;
-using TesteFaturamentoDistribuidora.ViewModels;
+using Exercicio3FaturamentoDistribuidora;
 
 var jsonDados = File.ReadAllText("../../../Dados/dados.json");
 
-var dados = JsonSerializer.Deserialize<List<DadosFaturamentoDiarioViewModel>>(jsonDados);
+var dados = JsonSerializer.Deserialize<List<DadosFaturamentoDiario>>(jsonDados);
 
 var faturamentos = new List<double>();
 foreach (var item in dados)

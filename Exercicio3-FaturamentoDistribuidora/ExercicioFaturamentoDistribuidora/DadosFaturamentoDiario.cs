@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TesteFaturamentoDistribuidora.ViewModels
+namespace Exercicio3FaturamentoDistribuidora
 {
-    public class DadosFaturamentoDiarioViewModel
+    public class DadosFaturamentoDiario
     {
         public int dia { get; set; }
         public double valor { get; set; }
